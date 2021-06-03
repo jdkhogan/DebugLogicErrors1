@@ -14,7 +14,9 @@ let launchReady = false;
 let fuelLevel = 17000;
 let crewStatus = true;
 let computerStatus = 'green';
-let fuelReady = false;
+// added two new status options to store values for fuel and crew & computer
+// evaluating these together helps use decide launch status
+let fuelReady = false; 
 let crewAndComputerReady = false;
 
 if (fuelLevel >= 20000) {
